@@ -33,4 +33,5 @@ But will work on an Ironman save.
 
 Inspired by [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2651777132]Unrestricted National Focus[/url] by [url=https://steamcommunity.com/profiles/76561198055745620]Parmelion[/url]
 
-[h3][url=https://github.com/mat1432/greater_national_focus/]GitHub[/url][/h3]
+[url=https://github.com/mat1432/greater_national_focus/]GitHub[/url]
+Licensed under the [url=https://github.com/mat1432/greater_national_focus/blob/main/LICENSE]GNU General Public License v3.0[/url]
