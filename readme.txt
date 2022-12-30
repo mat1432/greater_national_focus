@@ -2,7 +2,7 @@
 #### https://github.com/mat1432/greater_national_focus/
 
 [h1]Greater National Focus[/h1]
-[b]1.34.5 ; This Mod Does Not Need to be Updated![/b]
+[b]1.34.* ; This Mod Does Not Need to be Updated![/b]
 
 In combination with your National Focus, you could if you wanted to have a Monarch Point adjustment of +6 -3 -3!
 
