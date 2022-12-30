@@ -4,6 +4,7 @@ country_event = {
 	id = gnf.1
 	title = "gnf_1_title"
 	desc = "gnf_1_desc"
+	picture = INVENTION_eventPicture
 	is_triggered_only = yes
 
 	immediate = {
@@ -24,7 +25,7 @@ country_event = {
 
 	option = {
 		name = "gnf_1_country_focus"
-		country_event = { id = gnf.1002 }
+		country_event = { id = gnf.2 }
 	}
 
 	option = {
@@ -144,6 +145,7 @@ country_event = {
 	id = gnf.2
 	title = "gnf_2_t"
 	desc = "gnf_2_d"
+	picture = GOOD_WITH_MONARCH_eventPicture
 	is_triggered_only = yes
 
 	immediate = {
