@@ -1,0 +1,16 @@
+country_decisions = {
+	gnf_change = {
+		potential = {
+			ai = no
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			if = {
+				limit = { NOT = { has_country_flag = gnf_open } }
+				country_event = { id = gnf.1 }
+			}
+		}
+	}
+}

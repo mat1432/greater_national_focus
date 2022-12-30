@@ -1,0 +1,10 @@
+﻿l_english:
+ gnf_has_t1_tt: "Has Tier 1 National Focus"
+ gnf_has_t2_tt: "Has Tier 2 National Focus"
+
+ gnf_has_flag_adm_tt: "Is Focusing on £adm£"
+ gnf_not_has_flag_adm_tt: "Is NOT Focusing on £adm£"
+ gnf_has_flag_dip_tt: "Is Focusing on £dip£"
+ gnf_not_has_flag_dip_tt: "Is NOT Focusing on £dip£"
+ gnf_has_flag_mil_tt: "Is Focusing on £mil£"
+ gnf_not_has_flag_mil_tt: "Is NOT Focusing on £mil£"

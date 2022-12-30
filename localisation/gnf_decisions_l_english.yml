@@ -1,0 +1,4 @@
+﻿l_english:
+# decision
+ gnf_change_title: "Change Greater National Focus"
+ gnf_change_desc: "Effects are applied through triggered modifiers.\nEffects can be changed and reset with no delay between changes."

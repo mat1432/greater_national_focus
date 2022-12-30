@@ -1,0 +1,50 @@
+
+gnf_adm = {
+    potential = { has_country_flag = gnf_flag_adm }
+    trigger = { ai = no }
+
+	country_admin_power = 2
+	country_diplomatic_power = -1
+	country_military_power = -1
+}
+gnf_dip = {
+    potential = { has_country_flag = gnf_flag_dip }
+    trigger = { ai = no }
+
+	country_admin_power = -1
+	country_diplomatic_power = 2
+	country_military_power = -1
+}
+gnf_mil = {
+    potential = { has_country_flag = gnf_flag_mil }
+    trigger = { ai = no }
+
+	country_admin_power = -1
+	country_diplomatic_power = -1
+	country_military_power = 2
+}
+
+gnf_adm2 = {
+    potential = { has_country_flag = gnf_flag_adm2 }
+    trigger = { ai = no }
+
+	country_admin_power = 2
+	country_diplomatic_power = -1
+	country_military_power = -1
+}
+gnf_dip2 = {
+    potential = { has_country_flag = gnf_flag_dip2  }
+    trigger = { ai = no }
+
+	country_admin_power = -1
+	country_diplomatic_power = 2
+	country_military_power = -1
+}
+gnf_mil2 = {
+    potential = {  has_country_flag = gnf_flag_mil2 }
+    trigger = { ai = no }
+
+	country_admin_power = -1
+	country_diplomatic_power = -1
+	country_military_power = 2
+}

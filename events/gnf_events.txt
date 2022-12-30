@@ -1,0 +1,224 @@
+namespace = gnf
+
+country_event = {
+	id = gnf.1
+	title = "gnf_1_title"
+	desc = "gnf_1_desc"
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = gnf_open
+		}
+	}
+	after = {
+		hidden_effect = {
+			clr_country_flag = gnf_open
+		}
+	}
+
+	option = {
+		name = "gnf_exit"
+		ai_chance = { factor = 100 }
+	}
+
+	option = {
+		name = "gnf_1_country_focus"
+		country_event = { id = gnf.1002 }
+	}
+
+	option = {
+		name = "gnf_1_reset_all"
+		trigger = {
+			AND = {
+				custom_trigger_tooltip = {
+					tooltip = gnf_has_t1_tt
+					OR = {
+						has_country_flag = gnf_flag_adm
+						has_country_flag = gnf_flag_dip
+						has_country_flag = gnf_flag_mil
+					}
+				}
+				custom_trigger_tooltip = {
+					tooltip = gnf_has_t2_tt
+					OR = {
+						has_country_flag = gnf_flag_adm2
+						has_country_flag = gnf_flag_dip2
+						has_country_flag = gnf_flag_mil2
+					}
+				}
+			}
+		}
+		custom_tooltip = gnf_clr_tt
+		hidden_effect = {
+			gnf_clr_t1 = yes
+			gnf_clr_t2 = yes
+		}
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+
+
+	option = { # enable
+		name = "gnf_1_adm"
+		trigger = { gnf_not_has_flag = { focus = adm num = "" } }
+		gnf_set = { focus = adm }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # disable
+		name = "gnf_1_adm_"
+		trigger = { gnf_has_flag = { focus = adm num = "" } }
+		highlight = yes
+		gnf_clr_t1 = yes
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # enable
+		name = "gnf_1_dip"
+		trigger = { gnf_not_has_flag = { focus = dip num = "" } }
+		gnf_set = { focus = dip }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # disable
+		name = "gnf_1_dip_"
+		trigger = { gnf_has_flag = { focus = dip num = "" } }
+		highlight = yes
+		gnf_clr_t1 = yes
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # enable
+		name = "gnf_1_mil"
+		trigger = { gnf_not_has_flag = { focus = mil num = "" } }
+		gnf_set = { focus = mil }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # disable
+		name = "gnf_1_mil_"
+		trigger = { gnf_has_flag = { focus = mil num = "" } }
+		highlight = yes
+		gnf_clr_t1 = yes
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+
+
+	option = { # enable
+		name = "gnf_1_adm2"
+		trigger = { gnf_not_has_flag = { focus = adm num = 2 } }
+		gnf_set = { focus = adm num = 2 }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # disable
+		name = "gnf_1_adm2_"
+		trigger = { gnf_has_flag = { focus = adm num = 2 } }
+		highlight = yes
+		gnf_clr_t2 = yes
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # enable
+		name = "gnf_1_dip2"
+		trigger = { gnf_not_has_flag = { focus = dip num = 2 } }
+		gnf_set = { focus = dip num = 2 }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # disable
+		name = "gnf_1_dip2_"
+		trigger = { gnf_has_flag = { focus = dip num = 2 } }
+		highlight = yes
+		gnf_clr_t2 = yes
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # enable
+		name = "gnf_1_mil2"
+		trigger = { gnf_not_has_flag = { focus = mil num = 2 } }
+		gnf_set = { focus = mil num = 2 }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+	option = { # disable
+		name = "gnf_1_mil2_"
+		trigger = { gnf_has_flag = { focus = mil num = 2 } }
+		highlight = yes
+		gnf_clr_t2 = yes
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+}
+
+country_event = {
+	id = gnf.2
+	title = "gnf_2_t"
+	desc = "gnf_2_d"
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_country_flag = gnf_open
+		}
+	}
+	after = {
+		hidden_effect = {
+			clr_country_flag = gnf_open
+		}
+	}
+
+	option = {
+		name = "gnf_back"
+		ai_chance = { factor = 100 }
+		hidden_effect = { country_event = { id = gnf.1001 } }
+	}
+
+	option = {
+		name = "gnf_2_none"
+		custom_tooltip = gnf_clr_tt
+		hidden_effect = { change_national_focus = none }
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+
+	option = { # enable
+		name = "gnf_2_adm"
+		change_national_focus = ADM
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+	option = { # enable
+		name = "gnf_2_dip"
+		change_national_focus = MIL
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+	option = { # enable
+		name = "gnf_2_mil"
+		change_national_focus = MIL
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+}
+
+
+
+####################################################################################
+# Recursive events
+
+country_event = {
+	id = gnf.1001
+	title = "gnf_1001_t"
+	desc = "gnf_1001_d"
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "gnf_1001_a"
+		ai_chance = { factor = 100 }
+		hidden_effect = { set_country_flag = gnf_open }
+		country_event = { id = gnf.1 }
+	}
+}
+country_event = {
+	id = gnf.1002
+	title = "gnf_1002_t"
+	desc = "gnf_1002_d"
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = "gnf_1002_a"
+		ai_chance = { factor = 100 }
+		hidden_effect = { set_country_flag = gnf_open }
+		country_event = { id = gnf.2 }
+	}
+}

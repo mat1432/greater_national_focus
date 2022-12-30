@@ -1,0 +1,14 @@
+
+gnf_has_flag = {
+	custom_trigger_tooltip = {
+		tooltip = gnf_has_flag_$focus$_tt
+		has_country_flag = gnf_flag_$focus$$num$
+	}
+}
+
+gnf_not_has_flag = {
+	custom_trigger_tooltip = {
+		tooltip = gnf_not_has_flag_$focus$_tt
+		NOT = { has_country_flag = gnf_flag_$focus$$num$ }
+	}
+}
