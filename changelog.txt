@@ -1,11 +1,15 @@
 # Made by mat1432 (Steam) https://steamcommunity.com/id/mat1432/
 #### https://github.com/mat1432/greater_national_focus/
 
+<No Version Yet>
+[list]
+    [*]Added Comments to all Callable Scripted Effects and Triggers
+[/list]
+
 1.1.0
 [list]
     [*]Added [url=https://github.com/mat1432/greater_national_focus]GitHub Repository[/url]
     [*]Now licensed under the [url=https://github.com/mat1432/greater_national_focus/blob/main/LICENSE]GNU General Public License v3.0[/url]
-    [*]Added Comments to all Callable Scripted Effects and Triggers
     [*]Added ability to change Country National Focus (Even to nothing)
     [*]All Menu's are now Recursive (Where reasonable)
     [*]Menus now have event pictures

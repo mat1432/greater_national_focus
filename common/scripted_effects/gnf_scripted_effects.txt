@@ -1,4 +1,4 @@
-
+# clears both T1 and T2
 gnf_clr = {
 	custom_tooltip = gnf_clr_tt
 	hidden_effect = {
@@ -23,7 +23,9 @@ gnf_clr_t2 = {
 	}
 }
 
-
+# Arguments:
+# focus = <adm|dip|mil>
+# num = <''|2>
 gnf_set = {
 	custom_tooltip = gnf_$focus$_tt
 	hidden_effect = {
@@ -33,12 +35,3 @@ gnf_set = {
 		set_country_flag = gnf_flag_$focus$$num$
 	}
 }
-# gnf_set2 = {
-# 	custom_tooltip = gnf_$focus$_tt
-# 	hidden_effect = {
-# 		clr_country_flag = gnf_flag_adm2
-# 		clr_country_flag = gnf_flag_dip2
-# 		clr_country_flag = gnf_flag_mil2
-# 		set_country_flag = gnf_flag_$focus$2
-# 	}
-# }

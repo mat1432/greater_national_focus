@@ -8,14 +8,10 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		hidden_effect = {
-			set_country_flag = gnf_open
-		}
+		hidden_effect = { set_country_flag = gnf_open }
 	}
 	after = {
-		hidden_effect = {
-			clr_country_flag = gnf_open
-		}
+		hidden_effect = { clr_country_flag = gnf_open }
 	}
 
 	option = {
@@ -149,14 +145,10 @@ country_event = {
 	is_triggered_only = yes
 
 	immediate = {
-		hidden_effect = {
-			set_country_flag = gnf_open
-		}
+		hidden_effect = { set_country_flag = gnf_open }
 	}
 	after = {
-		hidden_effect = {
-			clr_country_flag = gnf_open
-		}
+		hidden_effect = { clr_country_flag = gnf_open }
 	}
 
 	option = {

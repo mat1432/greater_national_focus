@@ -1,4 +1,4 @@
-
+# National Focus Triggered Modifiers
 gnf_adm = {
     potential = { has_country_flag = gnf_flag_adm }
     trigger = { ai = no }
