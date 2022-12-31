@@ -10,8 +10,8 @@ This Mod also allows you to change the Country's National Focus.
 There is no cooldown period between decisions.
 
 ## This Mod Is:
-**NOT Achievement Compatible! (Modifies the checksum)**
-But will work on an Ironman save.
+- **NOT Achievement Compatible! (Modifies the checksum)**
+- But will work on an Ironman save.
 
 ## Install and Uninstall Compatibility:
 ### Forwards Compatability:
