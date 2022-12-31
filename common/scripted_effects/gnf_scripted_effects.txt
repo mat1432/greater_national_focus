@@ -1,3 +1,5 @@
+# Written by mat1432 https://steamcommunity.com/id/mat1432/ (Steam) https://github.com/mat1432/greater_national_focus/ (GitHub)
+
 # clears both T1 and T2
 gnf_clr = {
 	custom_tooltip = gnf_clr_tt

@@ -1,3 +1,5 @@
+# Written by mat1432 https://steamcommunity.com/id/mat1432/ (Steam) https://github.com/mat1432/greater_national_focus/ (GitHub)
+
 # Returns yes if the country has the flag with the specified suffix(s)
 # Arguments:
 # focus = <adm|dip|mil>

@@ -1,3 +1,5 @@
+# Written by mat1432 https://steamcommunity.com/id/mat1432/ (Steam) https://github.com/mat1432/greater_national_focus/ (GitHub)
+
 # National Focus Triggered Modifiers
 gnf_adm = {
     potential = { has_country_flag = gnf_flag_adm }
