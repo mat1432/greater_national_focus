@@ -1,5 +1,5 @@
 # Greater National Focus
-*Made by mat1432 [Steam](https://steamcommunity.com/id/mat1432/) [GitHub](/../../../)*
+*Made by mat1432 [Steam](https://steamcommunity.com/id/mat1432/) [GitHub](https://github.com/mat1432/)*
 
 **1.34.* ; This Mod Does Not Need to be Updated!**
 
@@ -28,5 +28,5 @@ Inspired by [Unrestricted National Focus](https://steamcommunity.com/sharedfiles
 
 Check out my other Monarch Point Mod [Best Ruler Stats (Configurable)](https://steamcommunity.com/sharedfiles/filedetails/?id=2909893816)
 
-[GitHub Repository](/../../)
-Licensed under the [GNU General Public License v3.0](/LICENSE)
+[GitHub Repository](https://github.com/mat1432/greater_national_focus/)
+Licensed under the [GNU General Public License v3.0](https://github.com/mat1432/greater_national_focus/blob/main/LICENSE)
