@@ -1,8 +1,10 @@
 # Made by mat1432 https://steamcommunity.com/id/mat1432/ (Steam) https://github.com/mat1432/greater_national_focus/ (GitHub)
 
-1.1.1
+1.1.0b
 [list]
+    [*]Minor Refactoring of Code
     [*]Added Comments to all Callable Scripted Effects and Triggers
+    [*]Credited myself for my code
 [/list]
 
 1.1.0
