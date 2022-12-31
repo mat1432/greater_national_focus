@@ -1,7 +1,7 @@
 # Returns yes if the country has the flag with the specified suffix(s)
 # Arguments:
 # focus = <adm|dip|mil>
-# num = <''|2>
+# num = <|2>
 gnf_has_flag = {
 	custom_trigger_tooltip = {
 		tooltip = gnf_has_flag_$focus$_tt
@@ -12,7 +12,7 @@ gnf_has_flag = {
 # Returns yes if the country DOES NOT HAVE the flag with the specified suffix(s)
 # Arguments:
 # focus = <adm|dip|mil>
-# num = <''|2>
+# num = <|2>
 gnf_not_has_flag = {
 	custom_trigger_tooltip = {
 		tooltip = gnf_not_has_flag_$focus$_tt
