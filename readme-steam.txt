@@ -22,7 +22,7 @@ There is no cooldown period between decisions.
 [/list]
 [h3]Backwards Compatability:[/h3]
 [list]
-    [*]Limit is 1.32.2
+    [*]Limit is [url=https://eu4.paradoxwikis.com/Patch_1.32.X#1.32.2]Patch 1.32.2[/url]
     [*]Changing Country's National Focus to Nothing will break past this version
 [/list]
 [h3]Save Compatability:[/h3]
