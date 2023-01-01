@@ -20,8 +20,9 @@ There is no cooldown period between decisions.
 - Almost Guaranteed
 - The mod doesn't edit or replace any files, only adds files. It should be forwards compatible with every future update!
 ### Backwards Compatability:
-- Limit is [Patch 1.32.2](https://eu4.paradoxwikis.com/Patch_1.32.X#1.32.2)
+- Mostly works past [url=https://eu4.paradoxwikis.com/Patch_1.32.X#1.32.2]Patch 1.32.2[/url] (30 Nov 2021)
 - Changing Country's National Focus to Nothing will break past this version
+- Limit is [url=https://eu4.paradoxwikis.com/Patch_1.23]Patch 1.23[/url] (16 Nov 2017)
 ### Save Compatability:
 - No need to worry about uninstalling, the mod only uses country, province and global flags which do not cause any save game damage upon uninstall.
 - You can safely use on any active save game and remove later if you wish.
