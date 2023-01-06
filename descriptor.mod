@@ -1,4 +1,4 @@
-version="1.1.0c"
+version="1.1.0d"
 tags={
 	"Missions And Decisions"
 	"Utilities"
