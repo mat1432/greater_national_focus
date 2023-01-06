@@ -8,6 +8,7 @@
 In combination with your National Focus, you could if you wanted to have a Monarch Point adjustment of +6 -3 -3!
 
 The Mod has a 2-Layer National Focus selection.
+**Layers are enacted Independently of each other!**
 This Mod also allows you to change the Country's National Focus.
 There is no cooldown period between decisions.
 
