@@ -160,6 +160,13 @@ country_event = {
 
 	option = {
 		name = "gnf_2_none"
+		trigger = {
+			OR = {
+				national_focus = ADM
+				national_focus = DIP
+				national_focus = MIL
+			}
+		}
 		custom_tooltip = gnf_clr_tt
 		hidden_effect = { change_national_focus = none }
 		hidden_effect = { country_event = { id = gnf.1002 } }
@@ -167,16 +174,40 @@ country_event = {
 
 	option = { # enable
 		name = "gnf_2_adm"
+		trigger = { NOT = { national_focus = ADM } }
+		change_national_focus = ADM
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+	option = { # setelcted
+		name = "gnf_2_adm"
+		trigger = { national_focus = ADM }
+		highlight = yes
 		change_national_focus = ADM
 		hidden_effect = { country_event = { id = gnf.1002 } }
 	}
 	option = { # enable
 		name = "gnf_2_dip"
+		trigger = { NOT = { national_focus = DIP } }
+		change_national_focus = DIP
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+	option = { # setelcted
+		name = "gnf_2_dip"
+		trigger = { national_focus = DIP }
+		highlight = yes
+		change_national_focus = DIP
+		hidden_effect = { country_event = { id = gnf.1002 } }
+	}
+	option = { # setelcted
+		name = "gnf_2_mil"
+		trigger = { NOT = { national_focus = MIL } }
 		change_national_focus = MIL
 		hidden_effect = { country_event = { id = gnf.1002 } }
 	}
-	option = { # enable
+	option = { # setelcted
 		name = "gnf_2_mil"
+		trigger = { national_focus = MIL }
+		highlight = yes
 		change_national_focus = MIL
 		hidden_effect = { country_event = { id = gnf.1002 } }
 	}

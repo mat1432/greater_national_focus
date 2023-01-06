@@ -1,5 +1,11 @@
 # Made by mat1432 https://steamcommunity.com/id/mat1432/ (Steam) https://github.com/mat1432/greater_national_focus/ (GitHub)
 
+1.1.0c
+[list]
+    [*]Fix Country Diplomatic National Focus
+    [*]Country national Focus now highlights the currently selected option
+[/list]
+
 1.1.0b
 [list]
     [*]Minor Refactoring of Code
