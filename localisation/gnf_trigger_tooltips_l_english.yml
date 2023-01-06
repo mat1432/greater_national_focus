@@ -1,8 +1,8 @@
 ﻿# Written by mat1432 https://steamcommunity.com/id/mat1432/ (Steam) https://github.com/mat1432/greater_national_focus/ (GitHub)
 l_english:
 # Effect tooltips
- gnf_has_t1_tt: "Has Tier 1 National Focus"
- gnf_has_t2_tt: "Has Tier 2 National Focus"
+ gnf_has_t1_tt: "Has Layer 1 National Focus"
+ gnf_has_t2_tt: "Has Layer 2 National Focus"
 
  gnf_has_flag_adm_tt: "Is Focusing on £adm£"
  gnf_not_has_flag_adm_tt: "Is NOT Focusing on £adm£"
