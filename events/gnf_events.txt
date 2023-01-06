@@ -198,7 +198,7 @@ country_event = {
 		change_national_focus = DIP
 		hidden_effect = { country_event = { id = gnf.1002 } }
 	}
-	option = { # setelcted
+	option = { # enable
 		name = "gnf_2_mil"
 		trigger = { NOT = { national_focus = MIL } }
 		change_national_focus = MIL
