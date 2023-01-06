@@ -4,6 +4,7 @@
 [list]
     [*]Renamed Tiers to Layers to reduce confusion; they are enacted [i]Independently[/i] of each other!
     [*]Changed description of layers in the menu.
+    [*]Added prefix text to identify the Greater national Focus decision
 [/list]
 
 1.1.0c

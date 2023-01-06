@@ -2,7 +2,7 @@
 l_english:
 # event
  gnf_exit: "§MExit§!"
- gnf_1_title: "Change Greater National Focus"
+ gnf_1_title: "<£adm££dip££mil£> Change Greater National Focus"
  gnf_1_desc: "Effects are applied through triggered modifiers, on top of your nations National focus.\nNote: Layers are enacted Independently of each other.\nEffects can be changed and reset with no delay between changes.\nAll options exit the menu, click decision again whenever you want."
  gnf_1_country_focus: "§MChange National Focus (Country)§!"
  gnf_1_reset_all: "§OReset All & Exit§!"
@@ -22,7 +22,7 @@ l_english:
  gnf_1_dip2_: "§Y(Layer 2)§! §YDiplomatic§! £dip£ §O(Disable)§!"
  gnf_1_mil2_: "§Y(Layer 2)§! §YMilitary§! £mil£ §O(Disable)§!"
 
- gnf_2_t: "Change Country National Focus"
+ gnf_2_t: "<£adm££dip££mil£> Change Country National Focus"
  gnf_2_d: ""
  gnf_back: "§MBack§!"
  gnf_2_none: "Balance our Focus"
