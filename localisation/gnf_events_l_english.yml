@@ -23,7 +23,7 @@ l_english:
  gnf_1_mil2_: "§Y(Layer 2)§! §YMilitary§! £mil£ §O(Disable)§!"
 
  gnf_2_t: "<£adm££dip££mil£> Change Country National Focus"
- gnf_2_d: ""
+ gnf_2_d: "This is for your Country National Focus!"
  gnf_back: "§MBack§!"
  gnf_2_none: "Balance our Focus"
  gnf_2_adm: "Focus on £adm£"
